@@ -1,0 +1,346 @@
+.grid{
+	display: grid;
+	width: 99%;
+	height: 100vw;
+	background-color: lightgray;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	grid-template-areas: 'grid1 grid2 grid3'
+						 'grid4 grid2 grid6'
+						 'grid7 grid5 grid8';
+	column-gap: 15px;
+	row-gap: 15px;
+	grid-template-rows: 500px 570px 420px;
+	grid-template-columns: 500px 500px 450px;
+}
+.grid1,.grid2,.grid3,.grid4,.grid5,.grid6,.grid7,.grid8{
+	border: 1px solid transparent;
+	border-radius: 10px;
+	font-family: 'Poppins', sans-serif;
+}
+.sp1{
+	position: absolute;
+	margin-top: 50px;
+	margin-left:-10px ;
+	font-size: 30px;
+}
+.sp2{
+	position: absolute;
+	margin-top: -3px;
+	margin-left:-30px ;
+	color: darkblue;
+	font-size: 20px;	
+}
+.sp3{
+	margin-top: 50px;
+	margin-left: -30px;
+	position: absolute;
+	color: darkred;
+	font-size: 80px;	
+}
+.sp4{
+	position: absolute;
+	margin-top: 30px;
+	margin-left:-65px ;
+	font-size: 30px;	
+}
+.sp5{
+	position: absolute;
+	margin-top:-70px;
+	margin-left:5px ;
+	font-size: 30px;	
+}
+.grid1{
+	grid-area: grid1;
+	margin: 40px;
+	margin-top: -1px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	background-image: url("https://images7.alphacoders.com/412/412733.jpg");
+	background-size: 465px 500px;
+	background-repeat: no-repeat;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+.grid2{
+	grid-area: grid2;
+	margin: 10px;
+	background-color: lightgray;
+}
+.grid2 .g2{
+	height: 80px;
+	margin: 10px;
+	padding: 10px;
+	padding-left: 5px;
+	background-color: transparent;
+}
+.grid2 .g2 ul{
+	list-style-type: none;
+}
+.grid2 .g2 ul li{
+	position: relative;
+	display: inline-block;
+	text-decoration: none;
+	text-align: left;
+	left: -20px;
+	padding: 10px 30px;
+	font-size: 15px;	
+	width: 60px;
+	text-align: center;
+	background-color: whitesmoke;
+	margin:5px;
+	border-radius: 20px;
+}
+.grid2 .g21{
+	margin-top: 50px;
+	height: 400px;
+	background-color: transparent;
+}
+.grid2 .g21 .g211{
+	background-color: transparent;
+	text-align: center;
+	width: 225px;
+	height: 200px;
+	position: absolute;
+	margin-top: 200px;
+}
+.grid2 .g21 .g211 h3{
+	margin-left: 40px;
+	padding: 5px 10px;
+	width: 100px;
+	background-color: rosybrown;
+	color: whitesmoke;
+	border-radius: 30px;
+}
+.grid2 .g21 .g212{
+	position: absolute;
+	background-color: transparent;
+	text-align: center;
+	width: 250px;
+	height: 200px;
+	margin-left: 110px;
+}
+.grid2 .g21 .g212 h3{
+	margin-left: 55px;
+	padding: 5px 10px;
+	width: 100px;
+	background-color: cadetblue;
+	color: whitesmoke;
+	border-radius: 30px;
+}
+.grid2 .g21 .g213{
+	background-color: transparent;
+	text-align: center;
+	width: 225px;
+	height: 200px;
+	margin-left: 254px;
+	position: absolute;
+	margin-top: 200px;
+}
+.grid2 .g21 .g213 h3{
+	margin-left: 45px;
+	padding: 5px 10px;
+	width: 100px;
+	background-color: hotpink;
+	color: whitesmoke;
+	border-radius: 30px;
+}
+#h1{
+	margin-top: 110px;
+	padding: 10px 20px;
+}
+.grid2 .g22{
+	margin-top: 40px;
+	background-color: whitesmoke;
+	height:450px;
+	text-align: center;
+	border-radius: 50px;
+}
+#h2{
+	position: absolute;
+	margin-top:300px;
+	margin-left: 185px;
+}
+.grid3{
+	grid-area: grid3;
+	margin: 10px;
+	background-image: url("https://cdn.pixabay.com/photo/2015/12/09/01/02/mandalas-1084082__480.jpg");
+	margin: 40px;
+	margin-top: -1px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius:30px;
+	background-size: 465px 600px;
+	background-repeat: no-repeat;
+	height: 600px;
+	margin-right: 70px;
+}
+.grid4{
+	grid-area: grid4;
+	margin: 10px;
+	background-color: lightgray;
+}
+.grid4 .g4{
+	position: relative;
+	margin: 10px;
+	padding: 10px;
+	padding-left: 100px;
+	text-align: left;
+	background-color: whitesmoke;
+	border-radius: 30px;
+}
+.g4 h4{
+	text-align: left;
+	color:gray ;
+}
+.grid5{
+	grid-area: grid5;
+	margin: 10px;
+	background-color: transparent;
+}
+.grid5 .g5{
+	position: relative;
+	margin: 10px;
+	margin-top: 50px;
+	margin-left:50px;
+	margin-right: 50px;
+	padding: 10px;
+	padding-left: 100px;
+	text-align: left;
+	background-color: whitesmoke;
+	border-radius: 30px;	
+}
+.g5 h4{
+	text-align: left;
+	color:gray ;
+}
+.grid6{
+	margin-top: 200px;
+	height: 500px;
+	grid-area: grid6;
+	margin: 10px;
+	background-color: transparent;
+}
+.grid6 .g6{
+	position: absolute;
+	width: 200px;
+	margin: 10px;
+	margin-top: 150px;
+	margin-right: 50px;
+	padding: 10px;
+	padding-left: 100px;
+	text-align: left;
+	background-color: whitesmoke;
+	border-radius: 30px;	
+}
+.g6 h4{
+	text-align: left;
+	color:gray ;
+}
+.grid6 .g61{
+	margin-top: 200px;
+	height: 200px;
+	text-align: center;
+}
+.grid6 .g61 .g611{
+	background-color: whitesmoke;
+	text-align: left;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	margin-top: 125px;
+	border-radius: 30px;
+}
+.grid6 .g61 .g612{
+	background-color: whitesmoke;
+	text-align: left;
+	width: 200px;
+	height: 200px;
+	margin-left: 230px;
+	position: absolute;
+	margin-top: 125px;
+	border-radius: 30px;	
+}
+#h3{
+	margin-top: 100px;
+	padding: 10px 20px;
+}
+.grid7{
+	grid-area: grid7;
+	margin: 30px;
+	background-image: url("https://www.teahub.io/photos/full/41-410401_beautiful-design-wallpaper-hd.jpg");
+	border-radius: 30px;
+	background-size: 465px 500px;
+	background-repeat: no-repeat;
+	margin-bottom: 10px;
+}
+.grid8{
+	grid-area: grid8;
+	margin: 10px;
+	background-color: transparent;
+}
+.grid8 .g8{
+	height: 200px;
+	margin: 10px;
+	background-color: lightgray;
+}
+.grid8 .g8 .s{
+	margin: 10px;
+	padding: 10px 20px;
+	width: 40px;
+	height: 30px;
+	text-align: center;
+	background-color: whitesmoke;
+	border-radius: 30px;
+}
+#s1{
+	margin-top: 30px;
+	margin-left: 50px;
+	position: absolute;
+}
+#s2{
+	margin-top: 30px;
+	margin-left: 165px;
+	position: absolute;
+	background-color: orange;
+	color: whitesmoke;
+}
+#s3{
+	margin-top: 30px;
+	margin-left: 280px;
+	position: absolute;
+}
+#s4{
+	margin-top: 120px;
+	margin-left: 50px;
+	position: absolute;
+}
+#s5{
+	margin-top: 120px;
+	margin-left: 165px;
+	position: absolute;
+}
+#s6{
+	margin-top: 120px;
+	margin-left: 280px;
+	position: absolute;
+	background-color: orange;
+	color: whitesmoke;
+}
+.grid8 .g8 p{
+	margin-top: 5px;
+}
+
+.grid8 .g81 .g811{
+	width: 200px;
+	margin: 10px;
+	margin-top: 50px;
+	margin-right: 50px;
+	padding: 10px;
+	padding-left: 100px;
+	text-align: left;
+	background-color: whitesmoke;
+	border-radius: 30px;
+}
